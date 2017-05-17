@@ -12,7 +12,7 @@ class Monster
   def self.count
     @@count
   end
-  
+
   # class instance variable (an alternative to class attributes)
   @class_description = "A scary monster"
 
@@ -22,7 +22,7 @@ class Monster
     @class_description
   end
 
-  # initial behavior 
+  # initial behavior
   # runs when a monster is created with Monster.new
   def initialize(threat_level=:medium)  #default threat level
     @threat_level = threat_level
